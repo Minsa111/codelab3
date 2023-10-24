@@ -1,8 +1,8 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import HomePage from "./Pages/Home";
-import AboutPage from "./Pages/About";
-import ContactPage from "./Pages/Contact";
+import HomePage from "./Pages/home";
+import AboutPage from "./Pages/about";
+import ContactPage from "./Pages/contact";
 
 function App() {
   return (
@@ -15,3 +15,4 @@ function App() {
     </Router>
   );
 }
+export default App;

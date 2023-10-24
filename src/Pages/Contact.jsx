@@ -1,7 +1,7 @@
 import React from "react";
-import Hero from './Components/Hero';
-import Navbar from './Components/Navbar';
-import Footer from './Components/Footer';
+import Hero from '../Components/hero';
+import Navbar from '../Components/navbar';
+import Footer from '../Components/footer';
 
 const ContactPage = () => {
   return (
